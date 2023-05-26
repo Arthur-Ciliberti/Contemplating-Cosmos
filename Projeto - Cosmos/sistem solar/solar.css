@@ -1,0 +1,144 @@
+body {
+    background: rgb(12,0,46);
+  }
+  
+  @keyframes moving {
+      100% {
+        transform: rotate(-360deg);
+      }
+  }
+  
+  .sun {
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    
+  background: rgb(236,255,0);
+  background: radial-gradient(circle, rgba(236,255,0,.8) 0%, rgba(255,184,0,.7) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    box-shadow: 0 0 10000px 200px rgba(255, 221, 0, .6);
+  }
+  
+  .mercury {
+    z-index: 10;
+   width: 10px;
+    height: 10px;
+    background-color: #decda0;
+    position: absolute;
+    top: calc(50% + 110px);
+    left: calc(50% + 110px);
+    border-radius: 50%;
+      animation: moving 8.8s infinite linear;
+      transform-origin: calc(-900% - 20px) calc(-900% - 20px);
+  }
+  
+  .orbit-mercury {
+    width: 323px;
+    height: 323px;
+    border: 3px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .venera {
+    z-index: 10;
+   width: 20px;
+    height: 20px;
+    background-color: #f7d77e;
+    position: absolute;
+    top: calc(50% + 155px);
+    left: calc(50% + 155px);
+    border-radius: 50%;
+      animation: moving 22.5s infinite linear;
+      transform-origin: calc(-675% - 20px) calc(-675% - 20px);
+  }
+  
+  .orbit-venera {
+    width: 463px;
+    height: 463px;
+    border: 3px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .earth {
+    z-index: 10;
+   width: 22px;
+    height: 22px;
+    background-color: #3bb4ff;
+    position: absolute;
+    top: calc(50% + 205px);
+    left: calc(50% + 205px);
+    border-radius: 50%;
+      animation: moving 36.5s infinite linear;
+      transform-origin: calc(-840% - 20px) calc(-840% - 20px);
+  }
+  
+  .orbit-earth {
+    width: 603px;
+    height: 603px;
+    border: 3px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .marc {
+    z-index: 10;
+   width: 15px;
+    height: 15px;
+    background-color: #db5625;
+    position: absolute;
+    top: calc(50% + 255px);
+    left: calc(50% + 255px);
+    border-radius: 50%;
+    animation: moving 68.7s infinite linear;
+    transform-origin: calc(-1570% - 20px) calc(-1570% - 20px);
+  }
+  
+  .marc-orbit {
+    width: 743px;
+    height: 743px;
+    border: 3px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .jupiter {
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-color: #c7a26d;
+    position: absolute;
+    top: calc(50% + 297px);
+    left: calc(50% + 297px);
+    border-radius: 50%;
+      animation: moving 438s infinite linear;
+      transform-origin: calc(-925% - 20px) calc(-925% - 20px);
+  }
+  
+  .jupiter-orbit {
+    width: 883px;
+    height: 883px;
+    border: 3px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

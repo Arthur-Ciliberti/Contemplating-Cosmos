@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/cad.css">
+  
+  <script src="./js/cad.js" defer></script>
+
+  <link rel="shortcut icon" href="./img/logofundopreto.png" type="image/x-icon">
+  
+
+  <title>Cosmos || Cadastro</title>
+</head>
+<body>
+
+  <main>
+    <section class="cadastro">
+
+      <div class="wrapper">
+        <img src="./img/logo.png" class="cadastro__logo">
+
+        <h1 class="cadastro__title">Fazer Cadastro</h1>
+    
+        <label class="cadastro__label">
+          <span>nome Completo</span>
+          <input type="text" name="username" id="input_nome" class="input">
+        </label>
+  
+        <label class="cadastro__label">
+          <span>Nome de usuário</span>
+          <input type="text" name="password" id="input_username" class="input">
+        </label>
+
+        <label class="cadastro__label">
+            <span>e-mail</span>
+            <input type="email" name="text" id="input_email" class="input">
+          </label>
+
+        <label class="cadastro__label">
+            <span>Cep</span>
+            <input type="tel" name="number" id="input_cep" class="input">
+        </label>
+
+        <label class="cadastro__label">
+            <span>Senha</span>
+            <input type="password" name="password" id="input_senha" class="input">
+          </label>
+
+        <label class="cadastro__label--checkbox">
+          <input type="checkbox" class="input--checkbox">
+          Manter login
+        </label>
+      </div>
+
+      <div class="wrapper">
+       <button class="cadastro__button" onclick="cadastro_gente()">
+         cadastrar
+       </button>
+  
+        <a href="./error.html" class="cadastro__link">algum problema?</a>
+        <a href="./login.html" class="cadastro__link">já tem login?</a>
+      </div>
+
+    </section>
+
+    <section class="wallpaper"></section>
+  </main>
+  
+</body>
+</html>
